@@ -1,22 +1,18 @@
-connectomics
-============
+Solution to the European Conference of Machine Learning Neural Connectomics Challenge
 
-Salution to the European Conference of Machine Learning Neural Connectomics Challenge
 Follow the following steps to create the solution:
 
-Requirements:
-------------
-*OS: Windows 7
-*R and matlab installed
-*R packages: R.matlab, gbm, randomForest
-*matlab open source packages: oopsi, ND (included in the zip)
+####Requirements:
+* OS: Windows 7
+* R and matlab installed
+* R packages: R.matlab, gbm, randomForest
+* matlab open source packages: oopsi, ND (included in the zip)
 
-Steps:
------
-0)uncompress ildefons.zip. This will create a folder "ildefons". 
-*You must update all R files included in this zip according to this path. 
+####Steps:
+0) uncompress ildefons.zip. This will create a folder "ildefons". 
+*Y ou must update all R files included in this zip according to this path. 
 E.g.:
-###path
+"###path"
 mypath<-"C:/Users/ildefons/vrije/ildefons"
 *The file "makeFeatures.R" has a second place to update:
 evaluate(matlab, "addpath(genpath('C:/Users/ildefons/vrije/ildefons'))") 
