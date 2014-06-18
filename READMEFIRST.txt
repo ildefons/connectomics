@@ -33,7 +33,8 @@ evaluate(matlab, "addpath(genpath('C:/Users/ildefons/vrije/ildefons'))")
 *output: 4 RData files: "featuresn1plus22.RData","featuresn2plus22.RData","featuresvalidplus22.RData","featurestestplus22.RData"
 *Note 1: after running line 9 (matlab$startServer() ), please wait 1 or 2 minutes untill the matlab server is running.
 *Note 2: this step requires a fast computer with >32Gbyte RAM
-*Note 3: this is the most time consumming script (~ 24 to 48 *Note 4: Please, make sure you have a lot of it (128Gb) if you want to run the script in one shot. If you have 32-64 Gb you will have to run this script as 4 steps (restart R after every step and restart matlab server):
+*Note 3: this is the most time consumming script (~ 24 to 48 hours) 
+*Note 4: Please, make sure you have a lot of it (128Gb) if you want to run the script in one shot. If you have 32-64 Gb you will have to run this script as 4 steps (restart R after every step and restart matlab server):
 	i) from "#########Features for normal-1"
         to "##############Features for normal-2"
 	ii) from "##############Features for normal-2"
